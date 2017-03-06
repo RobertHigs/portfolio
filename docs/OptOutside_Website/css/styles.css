@@ -1,0 +1,137 @@
+@charset "UTF-8";
+body {
+}
+#footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #0099EB;
+	background-image: -webkit-linear-gradient(270deg,rgba(0,153,235,1.00) 0%,rgba(67,102,155,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,153,235,1.00) 0%,rgba(67,102,155,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,153,235,1.00) 0%,rgba(67,102,155,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,153,235,1.00) 0%,rgba(67,102,155,1.00) 100%);
+	color: #ECE9E3;
+}
+#section {
+}
+h1 {
+	text-align: center;
+	font-family: frijole;
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: 3px 3px 3px #00755B;
+}
+blockquote {
+	border-left: 5px dotted #00755B;
+}
+h2 {
+	font-family: frijole;
+	font-style: normal;
+	font-weight: 400;
+}
+#iconsThree {
+	text-align: center;
+	background-color: #CDB600;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#iconsThree h2 {
+	padding-bottom: 20px;
+}
+#iconsThree .glyphicon {
+	font-size: 80px;
+}
+#photoGallery {
+}
+#photoGallery img {
+	width: 100%;
+	transition: all 1.5s;
+}
+fieldset legend {
+	font-size: 14px;
+	font-weight: bold;
+}
+#allMedia {
+}
+#videoPlayer {
+	background-color: #0099EB;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+#audioPlayer {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+#allMedia {
+}
+#footer {
+}
+#footer .fa {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+#footer {
+}
+#footer a {
+	color: #ECE9E3;
+}
+#footer {
+}
+a .glyphicon {
+	color: #1862CF;
+}
+#faqQuestion {
+}
+.faqAnswer {
+	margin-bottom: 15px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: thick solid #263B59;
+	border-radius: 10px;
+	background-color: #083d8c;
+	background-image: url("http://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */;
+	color: #E5F3F4;
+}
+.firstAnswer p a {
+	float: right;
+}
+#firstAnswer p a {
+}
+#firstAnswer {
+}
+#faqQuestion p a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #263B59;
+	transition: all 0.5s;
+}
+.faqAnswer p a {
+	float: right;
+	font-weight: bold;
+}
+#firstAnswer p a {
+}
+#firstAnswer p a {
+}
+.faqAnswer p:first-child {
+	font-weight: bold;
+}
+
+@media screen and (min-width:768px){
+#photoGallery img {
+	width: 50%;
+	transform: rotate(360deg);
+}
+}
+
+@media screen and (min-width:992px){
+}
+
+@media screen and (min-width:1200px){
+#photoGallery img {
+	width: 25%;
+	transform: rotate(720deg);
+}
+}

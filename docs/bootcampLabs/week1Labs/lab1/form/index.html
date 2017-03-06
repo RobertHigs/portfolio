@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <h1>Register</h1>
+        
+        <form>
+            <!-- Label and Input for First Name -->
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" name="fName" required/>
+            
+            <!-- Label and Input for Last Name -->
+            <label for="lName">Last Name:</label>
+            <input type="text" id="lName" name="lName" required/>
+            
+            <!-- Label and Radio for Gender -->
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="male"/>
+                <label for="female">Female</label>
+                <input type="radio" name="female"/>
+                <label for="other">Other</label>
+                <input type="radio" name="other"/>
+            </div>
+            
+            <!-- Label and Input for Email -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required/>
+                
+                <!-- Label and Input for password -->
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" minlength="5" maxlength="10"/>
+            </div>
+            
+            <!-- Label for birthday -->
+            <div>
+                <label for="birthday">Birthday</label>
+                <!-- Month Dropdown -->
+                <select name="month" id="month">
+                    <option value="month">Month</option>
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="jun">June</option>
+                    <option value="jul">July</option>
+                    <option value="aug">August</option>
+                    <option value="sep">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                </select>
+                
+                <!-- Day Dropdown -->
+                <select name="day" id="day">
+                    <option value="day">Day</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                
+                <!-- Year Dropdown -->
+                <select name="year" id="year">
+                    <option value="year">Year</option>
+                    <option value="1986">1986</option>
+                    <option value="1987">1987</option>
+                    <option value="1988">1988</option>
+                    <option value="1989">1989</option>
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                </select>
+            </div>
+            
+            
+            <!-- Label for Terms and Conditions -->
+            <label for="termsConditions">I agree to the terms and conditions</label>
+            <!-- Checkbox -->
+            <input type="checkbox" name="agree"/>
+            
+            <div>
+                <!-- Submit Button -->
+                <input type="submit" name="Submit"/>
+            </div>
+            
+            
+        </form>
+        
+
+    </body>
+</html>

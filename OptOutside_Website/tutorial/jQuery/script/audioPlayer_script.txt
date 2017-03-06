@@ -1,0 +1,3 @@
+<!-- audioPlayer -->
+<script src="js/audioplayer.min.js"></script>
+<script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
